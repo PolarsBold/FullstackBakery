@@ -1,0 +1,106 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  color: aliceblue;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  background-color: rgb(29, 29, 29);
+  display: flex;
+  flex-direction: column;
+}
+
+header p {
+  font-weight: bold;
+  font-size: 2.5rem;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  color: lightskyblue;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  padding: 0 1.25rem 0 1rem;
+}
+
+nav a {
+  text-decoration: none;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 1.1rem;
+}
+
+nav {
+  display: flex;
+  gap: 1rem;
+}
+
+nav a:hover {
+  text-decoration: underline;
+  color: lightskyblue;
+}
+
+main {
+  display: flex;
+  width: 60rem;
+  flex: 1;
+}
+
+aside {
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 0 1rem 0 0;
+}
+
+li {
+  background-color: lightskyblue;
+  color: black;
+  padding: 0.5rem 3rem 0.5rem 0.5rem;
+  border-radius: 0.25rem;
+  margin: 0.5rem;
+  font-size: 1.25rem;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+article {
+  justify-content: space-between;
+}
+
+h1 {
+  font-size: 1.75rem;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+p {
+  margin: 0.33rem 0;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 1.05rem;
+}
+
+figure {
+  padding: 1rem;
+  border-radius: 0.2rem;
+  background-color: rgb(54, 54, 54);
+  font-style: italic;
+}
+
+footer {
+  background-color: lightskyblue;
+  color: black;
+  padding: 1rem;
+  text-align: center;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 1.25rem;
+}
